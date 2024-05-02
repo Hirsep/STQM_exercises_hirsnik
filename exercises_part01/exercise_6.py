@@ -28,3 +28,20 @@ def sum_up(number1, number2):
 
 
 print(sum_up(9, 3))
+
+
+#def sum_up(number1, number2):
+#    total = 0
+#    if number2 < number1:
+#        yes_no = input("Your second number is lower than your first one. Do you want to swap them? (y/n)\n>>: ")
+#        if yes_no.lower() == "y":
+#            for number in range(number2, number1 + 1):
+#                total += number
+#        else:
+#            return "Numbers not swapped. Terminating process..."
+#        return int(total)
+#    else:
+#        while number1 <= number2:
+#            total += number1
+#            number1 += 1
+#        return int(total)

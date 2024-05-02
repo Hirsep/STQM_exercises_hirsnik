@@ -16,7 +16,7 @@ def triangle(rows):
 
 triangle(4)
 
-
+# Ohne Built-in Function range:
 #def triangle(rows):
 #    number = 1
 #    while number <= rows:

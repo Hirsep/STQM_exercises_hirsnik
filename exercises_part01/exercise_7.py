@@ -20,7 +20,7 @@ def sequence(number):
 
 
 sequence(10)
-
+# Ohne Built-in Function range:
 #def sequence(number):
 #    if number > 9 or number < 0:
 #        print('Error: Only numbers in range 0 - 9 are accepted for function "sequence".')
