@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0568ea65-ea5a-49a6-8f6f-c4eb64809ec7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/STQM_exercises_hirsnik.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises_part01/exercise_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises_part01/exercise_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises_part01/exercise_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises_part01/exercise_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises_part01/exercise_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises_part01/exercise_6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises_part01/exercise_7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises_part01/exercise_8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercises_part01/exercise_9.py" afterDir="false" />
+    <list default="true" id="0568ea65-ea5a-49a6-8f6f-c4eb64809ec7" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises_part01/exercise_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises_part01/exercise_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises_part01/exercise_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises_part01/exercise_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises_part01/exercise_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises_part01/exercise_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises_part01/exercise_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises_part01/exercise_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises_part01/exercise_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises_part01/exercise_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises_part01/exercise_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises_part01/exercise_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises_part01/exercise_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises_part01/exercise_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises_part01/exercise_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises_part01/exercise_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises_part01/exercise_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises_part01/exercise_9.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,137 +31,45 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Hirsep&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Hirsep/STQM_exercises_hirsnik.git&quot;,
+    &quot;accountId&quot;: &quot;ca416198-d922-47df-be0d-926f8a3e3862&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2fliRH7EPwoHtVdHe7H5fbK5Lh0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.exercise_1.executor": "Run",
-    "Python.exercise_3.executor": "Run",
-    "Python.exercise_4.executor": "Run",
-    "Python.exercise_5.executor": "Run",
-    "Python.exercise_6.executor": "Run",
-    "Python.exercise_7.executor": "Run",
-    "Python.exercise_8.executor": "Run",
-    "Python.exercise_9.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.exercise_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise_7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise_8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise_9.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\phirs\PycharmProjects\STQM_Exercise_1_hirsnik\exercises_part1" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="STQM_exercises_hirsnik" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="STQM_exercises_hirsnik" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Docutils task">
-      <module name="STQM_exercises_hirsnik" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docs" factoryName="Sphinx task">
-      <module name="STQM_exercises_hirsnik" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="docutils_input_file" value="" />
-      <option name="docutils_output_file" value="" />
-      <option name="docutils_params" value="" />
-      <option name="docutils_task" value="" />
-      <option name="docutils_open_in_browser" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Autodetect">
-      <module name="STQM_exercises_hirsnik" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="STQM_exercises_hirsnik" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -184,7 +87,20 @@
       <option name="presentableId" value="Default" />
       <updated>1714382055719</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1714464832415</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714464832415</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -193,6 +109,11 @@
           <url>file://$PROJECT_DIR$/exercises_part01/exercise_4.py</url>
           <line>10</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exercises_part01/exercise_6.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
