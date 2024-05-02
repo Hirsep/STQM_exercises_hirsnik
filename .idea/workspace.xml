@@ -3,18 +3,12 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BookmarksViewState">
+    <option name="rewriteBookmarkType" value="true" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0568ea65-ea5a-49a6-8f6f-c4eb64809ec7" name="Changes" comment="Initial commit">
+    <list default="true" id="0568ea65-ea5a-49a6-8f6f-c4eb64809ec7" name="Changes" comment="updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises_part01/exercise_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises_part01/exercise_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises_part01/exercise_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises_part01/exercise_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises_part01/exercise_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises_part01/exercise_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises_part01/exercise_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises_part01/exercise_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises_part01/exercise_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises_part01/exercise_5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises_part01/exercise_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises_part01/exercise_6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises_part01/exercise_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises_part01/exercise_7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises_part01/exercise_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises_part01/exercise_8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises_part01/exercise_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercises_part01/exercise_9.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,12 +89,29 @@
       <option name="project" value="LOCAL" />
       <updated>1714464832415</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updates">
+      <option name="closed" value="true" />
+      <created>1714639978728</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714639978728</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updates">
+      <option name="closed" value="true" />
+      <created>1714640467551</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714640467551</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -109,11 +120,6 @@
           <url>file://$PROJECT_DIR$/exercises_part01/exercise_4.py</url>
           <line>10</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/exercises_part01/exercise_6.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
