@@ -23,7 +23,7 @@ The function does not return anything.
 
 
 def describe_computer(computer):
-    computer['OS'] = 'Linux'
+    computer.get('OS', 'Linux')
     computer.setdefault('Type', 'unknown Type')
     computer.setdefault('Brand', 'unknown Brand')
     computer.setdefault('Price', 'unknown Price')
@@ -32,5 +32,5 @@ def describe_computer(computer):
     print(computer)
 
 
-my_notebook = {'Brand': 'Dell', 'Price': 2000}
+my_notebook = {'Brand': 'Dell', 'Price': 2000, 'OS': 'Windows'}
 describe_computer(my_notebook)
