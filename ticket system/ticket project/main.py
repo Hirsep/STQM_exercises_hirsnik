@@ -1,6 +1,7 @@
 import datetime
 from enums import TicketPriority, OperatingSystems
 from tickets import Ticket
+from teams import Team, Assignments
 
 
 if __name__ == "__main__":
@@ -13,7 +14,6 @@ if __name__ == "__main__":
         operating_systems=[OperatingSystems.WINDOWS, OperatingSystems.MACOS]
     )
     software_ticket.add_comment("terrible app", "Peter", datetime.datetime.now())
-    print(software_ticket, "\n")
 
     hardware_ticket = Ticket.create(
         ticket_type='hardware',
@@ -23,7 +23,7 @@ if __name__ == "__main__":
         serial_number=12345678,
         error_code='E404'
     )
-    print(hardware_ticket, "\n")
+    hardware_ticket.add_comment("printers never work", "Georg", datetime.datetime.now())
 
     software_ticket2 = Ticket.create(
         ticket_type='software',
@@ -32,4 +32,11 @@ if __name__ == "__main__":
         error_message='Null pointer exception',
         operating_systems=[OperatingSystems.WINDOWS, OperatingSystems.MACOS]
     )
-    print(software_ticket2, "\n")
+
+    team1 = Team("Team 1", "Peter", "Petar")
+    team2 = Team("Team 2", "Oliver", "Hooman")
+    assignments = Assignments()
+    assignments.add(team1, software_ticket)
+    assignments.add(team1, hardware_ticket)
+    assignments.add(team2, software_ticket2)
+    print(f"All assignments:\n\n{assignments}")

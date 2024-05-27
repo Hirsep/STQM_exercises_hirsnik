@@ -16,15 +16,8 @@ class Ticket:
 
     def __str__(self):
         comments_str = "\n".join(
-            [f"{comment[1]}, {comment[2].strftime('%m/%d/%y %H:%M:%S')}: {comment[0]}" for comment in self.comments]
-        )
-        ticket_info = (
-            f"Description: {self.description}\n"
-            f"Priority: {self.priority.name}\n"
-            f"Status: {self.status.value}\n"
-            f"Date: {self.time}\n"
-        )
-        return f"{ticket_info}\nComments:\n{comments_str if comments_str else 'No comments'}"
+            [f"{comment[1]}, {comment[2].strftime('%m/%d/%y %H:%M:%S')}: {comment[0]}" for comment in self.comments])
+        return f"Comments: {comments_str if comments_str else 'No comments'}\n"
 
     def __repr__(self):
         return self.__str__()
@@ -66,10 +59,9 @@ class HardwareTicket(Ticket):
         error_code_str = self.error_code if self.error_code else "N/A"
         ticket_info = super().__str__()
         hardware_info = (
-            f"Hardware Ticket ID: {self.id}\n"
-            f"Affected Component: {self.component}\n"
-            f"Serial Number: {self.serial_number}\n"
-            f"Error Code: {error_code_str}\n"
+            f"Hardware Ticket ID - {self.id}: {self.description}\n"
+            f"Created {self.time} - {self.priority.name}\n"
+            f"Component: {self.component}, s/n: {self.serial_number}, error code: {error_code_str}\n"
         )
         return f"{hardware_info}{ticket_info}"
 
@@ -91,9 +83,9 @@ class SoftwareTicket(Ticket):
         os_str = ", ".join([os.value for os in self.operating_systems])
         ticket_info = super().__str__()
         software_info = (
-            f"Software Ticket ID: {self.id}\n"
-            f"Error Message: {self.error_message}\n"
-            f"Affected Operating Systems: {os_str}\n"
+            f"Software Ticket ID - {self.id}: {self.description}\n"
+            f"Created {self.time} - {self.priority.name}\n"
+            f"Error message: {self.error_message}, Affected OSs: {os_str}\n"
         )
         return f"{software_info}{ticket_info}"
 
