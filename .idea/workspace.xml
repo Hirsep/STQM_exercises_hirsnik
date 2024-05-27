@@ -8,7 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0568ea65-ea5a-49a6-8f6f-c4eb64809ec7" name="Changes" comment="oop of ticket_system">
+      <change afterPath="$PROJECT_DIR$/ticket system/ticket project/save_to_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticket system/ticket project/ticketlog.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/STQM_exercises_hirsnik.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/STQM_exercises_hirsnik.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket system/ticket project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticket system/ticket project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket system/ticket project/tickets.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticket system/ticket project/tickets.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,22 +57,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.exercise_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise_9.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.exercise_1.executor": "Run",
+    "Python.exercise_2.executor": "Run",
+    "Python.exercise_3.executor": "Run",
+    "Python.exercise_4.executor": "Run",
+    "Python.exercise_5.executor": "Run",
+    "Python.exercise_6.executor": "Run",
+    "Python.exercise_7.executor": "Run",
+    "Python.exercise_8.executor": "Run",
+    "Python.exercise_9.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.tickets.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\phirs\PycharmProjects\STQM_Exercise_1_hirsnik\exercises_part1" />

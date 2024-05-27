@@ -2,6 +2,7 @@ import datetime
 from enums import TicketPriority, OperatingSystems
 from tickets import Ticket
 from teams import Team, Assignments
+from save_to_json import save_tickets
 
 
 if __name__ == "__main__":
@@ -40,3 +41,5 @@ if __name__ == "__main__":
     assignments.add(team1, hardware_ticket)
     assignments.add(team2, software_ticket2)
     print(f"All assignments:\n\n{assignments}")
+
+    save_tickets(Ticket.tickets)

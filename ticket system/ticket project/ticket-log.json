@@ -1,0 +1,51 @@
+[
+    {
+        "description": "App crashes on startup",
+        "priority": "SEVERE",
+        "status": "Created",
+        "time": "27/05/24",
+        "comments": [
+            {
+                "text": "terrible app",
+                "user": "Peter",
+                "timestamp": "27/05/24 16:01:52"
+            }
+        ],
+        "software_ticket_id": 100000,
+        "error_message": "Null pointer exception",
+        "operating_systems": [
+            "Windows",
+            "macOS"
+        ]
+    },
+    {
+        "description": "Printer not working",
+        "priority": "SIGNIFICANT",
+        "status": "Created",
+        "time": "27/05/24",
+        "comments": [
+            {
+                "text": "printers never work",
+                "user": "Georg",
+                "timestamp": "27/05/24 16:01:52"
+            }
+        ],
+        "hardware_ticket_id": 200000,
+        "component": "Printer",
+        "serial_number": 12345678,
+        "error_code": "E404"
+    },
+    {
+        "description": "App crashes on startup",
+        "priority": "SEVERE",
+        "status": "Created",
+        "time": "27/05/24",
+        "comments": [],
+        "software_ticket_id": 100001,
+        "error_message": "Null pointer exception",
+        "operating_systems": [
+            "Windows",
+            "macOS"
+        ]
+    }
+]

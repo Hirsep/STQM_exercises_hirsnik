@@ -15,12 +15,26 @@ class Ticket:
         Ticket.tickets.append(self)
 
     def __str__(self):
-        comments_str = "\n".join(
-            [f"{comment[1]}, {comment[2].strftime('%m/%d/%y %H:%M:%S')}: {comment[0]}" for comment in self.comments])
-        return f"Comments: {comments_str if comments_str else 'No comments'}\n"
+        return f"Description: {self.description} \
+                 Priority: {self.priority} \
+                 Status: {self.status} \
+                 Time: {self.time} \
+                 Comments: {self.comments}"
 
     def __repr__(self):
         return self.__str__()
+
+    def to_dict(self):
+        return {
+            'description': self.description,
+            'priority': self.priority.name,
+            'status': self.status.value,
+            'time': self.time,
+            'comments': [
+                {'text': comment[0], 'user': comment[1], 'timestamp': comment[2].strftime('%d/%m/%y %H:%M:%S')}
+                for comment in self.comments
+            ]
+        }
 
     def add_comment(self, text: str, user: str, timestamp: datetime):
         self.comments.append((text, user, timestamp))
@@ -57,16 +71,28 @@ class HardwareTicket(Ticket):
 
     def __str__(self):
         error_code_str = self.error_code if self.error_code else "N/A"
-        ticket_info = super().__str__()
+        comments_str = "\n".join(
+            [f"{comment[1]}, {comment[2].strftime('%m/%d/%y %H:%M:%S')}: {comment[0]}" for comment in self.comments])
         hardware_info = (
             f"Hardware Ticket ID - {self.id}: {self.description}\n"
             f"Created {self.time} - {self.priority.name}\n"
-            f"Component: {self.component}, s/n: {self.serial_number}, error code: {error_code_str}\n"
+            f"Component: {self.component}, s/n: {self.serial_number}, error code: {error_code_str}\n" 
+            f"Comments: {comments_str if comments_str else 'No comments'}\n"
         )
-        return f"{hardware_info}{ticket_info}"
+        return f"{hardware_info}"
 
     def __repr__(self):
         return self.__str__()
+
+    def to_dict(self):
+        ticket_dict = super().to_dict()
+        ticket_dict.update({
+            'hardware_ticket_id': self.id,
+            'component': self.component,
+            'serial_number': self.serial_number,
+            'error_code': self.error_code
+        })
+        return ticket_dict
 
 
 class SoftwareTicket(Ticket):
@@ -81,13 +107,24 @@ class SoftwareTicket(Ticket):
 
     def __str__(self):
         os_str = ", ".join([os.value for os in self.operating_systems])
-        ticket_info = super().__str__()
+        comments_str = "\n".join(
+            [f"{comment[1]}, {comment[2].strftime('%m/%d/%y %H:%M:%S')}: {comment[0]}" for comment in self.comments])
         software_info = (
             f"Software Ticket ID - {self.id}: {self.description}\n"
             f"Created {self.time} - {self.priority.name}\n"
             f"Error message: {self.error_message}, Affected OSs: {os_str}\n"
+            f"Comments: {comments_str if comments_str else 'No comments'}\n"
         )
-        return f"{software_info}{ticket_info}"
+        return f"{software_info}"
 
     def __repr__(self):
         return self.__str__()
+
+    def to_dict(self):
+        ticket_dict = super().to_dict()
+        ticket_dict.update({
+            'software_ticket_id': self.id,
+            'error_message': self.error_message,
+            'operating_systems': [os.value for os in self.operating_systems]
+        })
+        return ticket_dict
