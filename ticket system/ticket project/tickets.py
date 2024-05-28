@@ -24,7 +24,7 @@ class Ticket:
     def __repr__(self):
         return self.__str__()
 
-    def to_dict(self):
+    def as_dict(self):
         return {
             'description': self.description,
             'priority': self.priority.name,
@@ -84,8 +84,8 @@ class HardwareTicket(Ticket):
     def __repr__(self):
         return self.__str__()
 
-    def to_dict(self):
-        ticket_dict = super().to_dict()
+    def as_dict(self):
+        ticket_dict = super().as_dict()
         ticket_dict.update({
             'hardware_ticket_id': self.id,
             'component': self.component,
@@ -120,8 +120,8 @@ class SoftwareTicket(Ticket):
     def __repr__(self):
         return self.__str__()
 
-    def to_dict(self):
-        ticket_dict = super().to_dict()
+    def as_dict(self):
+        ticket_dict = super().as_dict()
         ticket_dict.update({
             'software_ticket_id': self.id,
             'error_message': self.error_message,

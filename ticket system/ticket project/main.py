@@ -4,7 +4,6 @@ from tickets import Ticket
 from teams import Team, Assignments
 from save_to_json import save_tickets
 
-
 if __name__ == "__main__":
 
     software_ticket = Ticket.create(
