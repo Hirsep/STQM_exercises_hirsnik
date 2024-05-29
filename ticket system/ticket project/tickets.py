@@ -75,7 +75,7 @@ class HardwareTicket(Ticket):
             [f"{comment[1]}, {comment[2].strftime('%m/%d/%y %H:%M:%S')}: {comment[0]}" for comment in self.comments])
         hardware_info = (
             f"Hardware Ticket ID - {self.id}: {self.description}\n"
-            f"Created {self.time} - {self.priority.name}\n"
+            f"Created {self.time} - {self.priority.value} ({self.priority.name})\n"
             f"Component: {self.component}, s/n: {self.serial_number}, error code: {error_code_str}\n" 
             f"Comments: {comments_str if comments_str else 'No comments'}\n"
         )
@@ -111,7 +111,7 @@ class SoftwareTicket(Ticket):
             [f"{comment[1]}, {comment[2].strftime('%m/%d/%y %H:%M:%S')}: {comment[0]}" for comment in self.comments])
         software_info = (
             f"Software Ticket ID - {self.id}: {self.description}\n"
-            f"Created {self.time} - {self.priority.name}\n"
+            f"Created {self.time} - {self.priority.value} ({self.priority.name})\n"
             f"Error message: {self.error_message}, Affected OSs: {os_str}\n"
             f"Comments: {comments_str if comments_str else 'No comments'}\n"
         )

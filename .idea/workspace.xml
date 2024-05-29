@@ -7,12 +7,9 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0568ea65-ea5a-49a6-8f6f-c4eb64809ec7" name="Changes" comment="oop of ticket_system">
+    <list default="true" id="0568ea65-ea5a-49a6-8f6f-c4eb64809ec7" name="Changes" comment="small updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket system/ticket project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticket system/ticket project/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket system/ticket project/save_to_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticket system/ticket project/save_to_json.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ticket system/ticket project/ticket-log.json" beforeDir="false" afterPath="$PROJECT_DIR$/ticket system/ticket project/ticket-log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticket system/ticket project/tickets.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticket system/ticket project/tickets.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716818593409</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="small updates">
+      <option name="closed" value="true" />
+      <created>1716878921428</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1716878921428</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,17 +193,7 @@
     <MESSAGE value="initial commit exercise_3.py exercise_4.py" />
     <MESSAGE value="initial commit exercise_5.py" />
     <MESSAGE value="oop of ticket_system" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop of ticket_system" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ticket system/ticket project/teams.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="small updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="small updates" />
   </component>
 </project>
