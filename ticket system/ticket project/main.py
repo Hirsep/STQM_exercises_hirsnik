@@ -2,9 +2,11 @@ import datetime
 from enums import TicketPriority, OperatingSystems
 from tickets import Ticket
 from teams import Team, Assignments
-from save_to_json import save_tickets
+from save_to_json import write_json, read_json
 
 if __name__ == "__main__":
+
+    read_json()
 
     software_ticket = Ticket.create(
         ticket_type='software',
@@ -24,6 +26,7 @@ if __name__ == "__main__":
         error_code='E404'
     )
     hardware_ticket.add_comment("printers never work", "Georg", datetime.datetime.now())
+    hardware_ticket.add_comment("printers are terrible", "Peter", datetime.datetime.now())
 
     software_ticket2 = Ticket.create(
         ticket_type='software',
@@ -41,4 +44,4 @@ if __name__ == "__main__":
     assignments.add(team2, software_ticket2)
     print(f"All assignments:\n\n{assignments}")
 
-    save_tickets(Ticket.tickets)
+    write_json(Ticket.tickets)

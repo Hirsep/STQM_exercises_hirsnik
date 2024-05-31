@@ -3,12 +3,12 @@
         "description": "App crashes on startup",
         "priority": "SEVERE",
         "status": "Created",
-        "time": "29/05/24",
+        "time": "31/05/24",
         "comments": [
             {
                 "text": "terrible app",
                 "user": "Peter",
-                "timestamp": "29/05/24 10:13:21"
+                "timestamp": "31/05/24 11:48:29"
             }
         ],
         "software_ticket_id": 100000,
@@ -22,12 +22,17 @@
         "description": "Printer not working",
         "priority": "SIGNIFICANT",
         "status": "Created",
-        "time": "29/05/24",
+        "time": "31/05/24",
         "comments": [
             {
                 "text": "printers never work",
                 "user": "Georg",
-                "timestamp": "29/05/24 10:13:21"
+                "timestamp": "31/05/24 11:48:29"
+            },
+            {
+                "text": "printers are terrible",
+                "user": "Peter",
+                "timestamp": "31/05/24 11:48:29"
             }
         ],
         "hardware_ticket_id": 200000,
@@ -39,7 +44,7 @@
         "description": "App crashes on startup",
         "priority": "SEVERE",
         "status": "Created",
-        "time": "29/05/24",
+        "time": "31/05/24",
         "comments": [],
         "software_ticket_id": 100001,
         "error_message": "Null pointer exception",
