@@ -1,56 +1,72 @@
-[
-    {
-        "description": "App crashes on startup",
-        "priority": "SEVERE",
-        "status": "Created",
-        "time": "31/05/24",
-        "comments": [
-            {
-                "text": "terrible app",
-                "user": "Peter",
-                "timestamp": "31/05/24 11:48:29"
-            }
+{
+    "Team 1": {
+        "members": [
+            "Peter",
+            "Petar"
         ],
-        "software_ticket_id": 100000,
-        "error_message": "Null pointer exception",
-        "operating_systems": [
-            "Windows",
-            "macOS"
-        ]
-    },
-    {
-        "description": "Printer not working",
-        "priority": "SIGNIFICANT",
-        "status": "Created",
-        "time": "31/05/24",
-        "comments": [
+        "tickets": [
             {
-                "text": "printers never work",
-                "user": "Georg",
-                "timestamp": "31/05/24 11:48:29"
+                "description": "App crashes on startup",
+                "priority": "SEVERE",
+                "status": "Created",
+                "time": "03/06/24",
+                "comments": [
+                    {
+                        "text": "terrible app",
+                        "user": "Peter",
+                        "timestamp": "03/06/24 14:05:26"
+                    }
+                ],
+                "software_ticket_id": 100000,
+                "error_message": "Null pointer exception",
+                "operating_systems": [
+                    "Windows",
+                    "macOS"
+                ]
             },
             {
-                "text": "printers are terrible",
-                "user": "Peter",
-                "timestamp": "31/05/24 11:48:29"
+                "description": "Printer not working",
+                "priority": "SIGNIFICANT",
+                "status": "Created",
+                "time": "03/06/24",
+                "comments": [
+                    {
+                        "text": "printers never work",
+                        "user": "Georg",
+                        "timestamp": "03/06/24 14:05:26"
+                    },
+                    {
+                        "text": "printers are terrible",
+                        "user": "Peter",
+                        "timestamp": "03/06/24 14:05:26"
+                    }
+                ],
+                "hardware_ticket_id": 200000,
+                "component": "Printer",
+                "serial_number": 12345678,
+                "error_code": "E404"
             }
-        ],
-        "hardware_ticket_id": 200000,
-        "component": "Printer",
-        "serial_number": 12345678,
-        "error_code": "E404"
+        ]
     },
-    {
-        "description": "App crashes on startup",
-        "priority": "SEVERE",
-        "status": "Created",
-        "time": "31/05/24",
-        "comments": [],
-        "software_ticket_id": 100001,
-        "error_message": "Null pointer exception",
-        "operating_systems": [
-            "Windows",
-            "macOS"
+    "Team 2": {
+        "members": [
+            "Oliver",
+            "Hooman"
+        ],
+        "tickets": [
+            {
+                "description": "App crashes on startup",
+                "priority": "SEVERE",
+                "status": "Created",
+                "time": "03/06/24",
+                "comments": [],
+                "software_ticket_id": 100001,
+                "error_message": "Null pointer exception",
+                "operating_systems": [
+                    "Windows",
+                    "macOS"
+                ]
+            }
         ]
     }
-]
+}

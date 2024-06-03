@@ -7,8 +7,12 @@
     <option name="rewriteBookmarkType" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0568ea65-ea5a-49a6-8f6f-c4eb64809ec7" name="Changes" comment="design updates">
+    <list default="true" id="0568ea65-ea5a-49a6-8f6f-c4eb64809ec7" name="Changes" comment="added read_json">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket system/ticket project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticket system/ticket project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket system/ticket project/save_to_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticket system/ticket project/save_to_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket system/ticket project/teams.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticket system/ticket project/teams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket system/ticket project/ticket-log.json" beforeDir="false" afterPath="$PROJECT_DIR$/ticket system/ticket project/ticket-log.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716970507286</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added read_json">
+      <option name="closed" value="true" />
+      <created>1717148992647</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717148992647</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +243,7 @@
     <MESSAGE value="oop of ticket_system" />
     <MESSAGE value="small updates" />
     <MESSAGE value="design updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="design updates" />
+    <MESSAGE value="added read_json" />
+    <option name="LAST_COMMIT_MESSAGE" value="added read_json" />
   </component>
 </project>

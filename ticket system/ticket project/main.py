@@ -5,7 +5,6 @@ from teams import Team, Assignments
 from save_to_json import write_json, read_json
 
 if __name__ == "__main__":
-
     read_json()
 
     software_ticket = Ticket.create(
@@ -44,4 +43,4 @@ if __name__ == "__main__":
     assignments.add(team2, software_ticket2)
     print(f"All assignments:\n\n{assignments}")
 
-    write_json(Ticket.tickets)
+    write_json(assignments)
